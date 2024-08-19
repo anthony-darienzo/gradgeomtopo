@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Button from '../components/Button.astro';
+import Hero from '../components/Hero.astro';
+import PostPreview from '../components/PostPreview.astro';
+import siteConfig from '../data/site-config';
+import { sortItemsByDateDesc } from '../utils/data-utils';
+
+const talks = (await getCollection('talks')).sort(sortItemsByDateDesc).slice(0, 3);
+---
+
+<BaseLayout description={siteConfig.description} image={siteConfig.image}>
+    <div class="max-w-none prose prose-dante sm:prose-lg">
+        We are a graduate-student run seminar showcasing special topics in geometry and topology at large. Talks in this seminar often involve
+        Differentiable/Riemannian geometry, analysis on manifolds, and metric spaces. There have also been talks in topological data analysis and sheaf theory.
+    </div>
+    <br />
+    <div class="max-w-none prose prose-dante sm:prose-lg">
+        Graduate students at all levels are welcome to participate. The graduate student seminars are opportunities to practice talks before a conference, or to
+        present something interesting to share among friends. After all, the best way to learn something is to teach it!
+    </div>
+    <br />
+    <Hero />
+    {
+        talks?.length > 0 && (
+            <div class="mb-16 sm:mb-24">
+                <h3 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">Recent Talks</h3>
+                {talks.map((post) => (
+                    <PostPreview post={post} class="mb-10 sm:mb-12" headingLevel="h3" />
+                ))}
+                <div class="mt-12 sm:mt-16">
+                    <Button href="/talks">View All Talks</Button>
+                </div>
+            </div>
+        )
+    }
+</BaseLayout>
