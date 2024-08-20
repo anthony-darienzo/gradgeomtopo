@@ -83,7 +83,7 @@ const siteConfig: SiteConfig = {
         actions: [
             {
                 text: 'Join the seminar',
-                href: '/info'
+                href: 'https://forms.gle/AaSnyMDKJEatD7tN9'
             }
         ]
     },
