@@ -75,7 +75,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Fall 2024',
-        text: "We are currently organizing the Fall 2024 seminar.",
+        text: "Our organizational meeting will be Wednesday, September 4th, 1:00PM to 1:30PM. Location announced soon!",
         image: {
             src: '/Altgeld.jpg',
             alt: 'Wikimedia Commons https://commons.wikimedia.org/wiki/File:Altgeld_Hall,_University_of_Illinois.jpg'
@@ -83,7 +83,7 @@ const siteConfig: SiteConfig = {
         actions: [
             {
                 text: 'Join the seminar',
-                href: 'https://forms.gle/AaSnyMDKJEatD7tN9'
+                href: '/info'
             }
         ]
     },
