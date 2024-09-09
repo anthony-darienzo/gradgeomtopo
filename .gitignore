@@ -131,3 +131,6 @@ dist
 
 # Astro.build
 .astro/
+
+# Extra artifacts
+dist.tar.gz

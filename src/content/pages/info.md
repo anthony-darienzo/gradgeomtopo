@@ -4,11 +4,8 @@ seo:
   title: Seminar Information
   description: Learn more about the UIUC Graduate Geometry-Topology seminar.
 ---
-For Fall 2024, we are meeting on *Mondays* from 1:00PM to 1:50PM.
-
-**Our organizational meeting will be on Wednesday, September 4th** from 1:00PM to 1:30PM.
-
-Location will be announced soon!
+For Fall 2024, we are meeting on *Mondays* from 1:00PM to 1:50PM. In
+**Lincoln Hall 1027.**
 
 We are a graduate-student run seminar showcasing special topics in
 geometry and topology at large. Talks in this seminar often involve
@@ -26,4 +23,5 @@ We have a mailing list,
 
 Abstracts of past talks can be found [here](/talks).
 
-Questions? Feel free to ask the organizer, Anthony D'Arienzo ([apd6 AT illinois DOT edu](https://adarienzo.web.illinois.edu)).
+Questions? Feel free to ask the organizer, Anthony D'Arienzo ([apd6 AT
+illinois DOT edu](https://adarienzo.web.illinois.edu)).

@@ -42,8 +42,8 @@ const siteConfig: SiteConfig = {
     subtitle: 'at the University of Illinois',
     description: 'gradgeomtopo@lists.illinois.edu',
     image: {
-        src: '/Altgeld.jpg',
-        alt: 'Aikimedia Commons https://commons.wikimedia.org/wiki/File:Altgeld_Hall,_University_of_Illinois.jpg'
+        src: '/Group.jpg',
+        alt: 'Group photo of seminar attendees.'
     },
     headerNavLinks: [
         {
@@ -75,10 +75,10 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Fall 2024',
-        text: "Our organizational meeting will be Wednesday, September 4th, 1:00PM to 1:30PM. Location announced soon!",
+        text: "We meet on Mondays, 1:00 to 1:50 PM, in Lincoln Hall 1027.",
         image: {
-            src: '/Altgeld.jpg',
-            alt: 'Wikimedia Commons https://commons.wikimedia.org/wiki/File:Altgeld_Hall,_University_of_Illinois.jpg'
+            src: '/Group.jpg',
+            alt: 'Group photo of seminar attendees.'
         },
         actions: [
             {
