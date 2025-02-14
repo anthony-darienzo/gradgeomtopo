@@ -55,6 +55,10 @@ const siteConfig: SiteConfig = {
             href: '/info'
         },
         {
+            text: 'Schedule',
+            href: '/upcoming'
+        },
+        {
             text: 'Talks',
             href: '/talks'
         },
@@ -81,6 +85,10 @@ const siteConfig: SiteConfig = {
             alt: 'Group photo of seminar attendees.'
         },
         actions: [
+            {
+                text: 'Schedule Spring 2025',
+                href: '/upcoming'
+            },
             {
                 text: 'Join the seminar',
                 href: '/info'

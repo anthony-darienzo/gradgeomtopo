@@ -23,5 +23,7 @@ We have a mailing list,
 
 Abstracts of past talks can be found [here](/talks).
 
+A schedule of Spring 2025 talks can be found [here](/upcoming).
+
 Questions? Feel free to ask the organizer, Anthony D'Arienzo ([apd6 AT
 illinois DOT edu](https://adarienzo.web.illinois.edu)).
