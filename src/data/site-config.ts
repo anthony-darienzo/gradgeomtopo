@@ -74,8 +74,8 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Fall 2024',
-        text: "We meet on Mondays, 1:00 to 1:50 PM, in Lincoln Hall 1027.",
+        title: 'Spring 2025',
+        text: "We meet on Friday, 1:00 to 1:50 PM, in Altgeld Hall 241.",
         image: {
             src: '/Group.jpg',
             alt: 'Group photo of seminar attendees.'

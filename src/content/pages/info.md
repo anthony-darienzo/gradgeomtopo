@@ -4,8 +4,8 @@ seo:
   title: Seminar Information
   description: Learn more about the UIUC Graduate Geometry-Topology seminar.
 ---
-For Fall 2024, we are meeting on *Mondays* from 1:00PM to 1:50PM. In
-**Lincoln Hall 1027.**
+For Spring 2025, we are meeting on *Fridays* from 1:00PM to 1:50PM. In
+**Altgeld Hall 241.**
 
 We are a graduate-student run seminar showcasing special topics in
 geometry and topology at large. Talks in this seminar often involve
