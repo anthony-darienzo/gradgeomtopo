@@ -9,16 +9,16 @@ seo:
 
 Abstracts of past talks can be found [here](/talks).
 
-| Date          | Speaker                   | Abstract  |
-|---------------|---------------------------|-----------|
-| 21 February   | Anthony D'Arienzo         | TBA       |
-| 28 February   | Available!                |           |
-| 7 March       | Available!                |           |
-| 14 March      | Spring break              | No talk   |
-| 21 March      | Brevan Ellefsen           | TBA       |
-| 28 March      | Shana Li                  | TBA       |
-| 4 April       | Nikolay Sheshko           | TBA       |
-| 11 April      | Vincent Villalobos        | TBA       |
-| 18 April      | Alex Taylor               | TBA       |
-| 25 April      | Jonathan Higgins          | TBA       |
-| 5 May         | Available                 |           |
+| Date          | Speaker                   | Abstract                   |
+|---------------|---------------------------|----------------------------|
+| 21 February   | Anthony D'Arienzo         | [Link](/talks/02212025)    |
+| 28 February   | Wilmer Smilde             | TBA                        |
+| 7 March       | Available!                |                            |
+| 14 March      | Brevan Ellefsen           | TBA                        |
+| 21 March      | Spring break              |                            |
+| 28 March      | Shana Li                  | TBA                        |
+| 4 April       | Nikolay Sheshko           | TBA                        |
+| 11 April      | Vincent Villalobos        | TBA                        |
+| 18 April      | Alex Taylor               | TBA                        |
+| 25 April      | Jonathan Higgins          | TBA                        |
+| 5 May         | Available!                |                            |
