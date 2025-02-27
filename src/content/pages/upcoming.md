@@ -21,4 +21,4 @@ Abstracts of past talks can be found [here](/talks).
 | 11 April      | Vincent Villalobos        | TBA                        |
 | 18 April      | Alex Taylor               | TBA                        |
 | 25 April      | Jonathan Higgins          | TBA                        |
-| 5 May         | Available!                |                            |
+| 5 May         | Ryan Roach                |                            |
