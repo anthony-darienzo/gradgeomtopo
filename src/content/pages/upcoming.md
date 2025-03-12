@@ -13,12 +13,12 @@ Abstracts of past talks can be found [here](/talks).
 |---------------|---------------------------|----------------------------|
 | 21 February   | Anthony D'Arienzo         | [Link](/talks/02212025)    |
 | 28 February   | Wilmer Smilde             | [Link](/talks/02282025)    |
-| 7 March       | Available!                |                            |
-| 14 March      | Brevan Ellefsen           | TBA                        |
+| 7 March       | Break                     |                            |
+| 14 March      | Brevan Ellefsen           | [Link](/talks/03142025)    |
 | 21 March      | Spring break              |                            |
 | 28 March      | Shana Li                  | TBA                        |
 | 4 April       | Nikolay Sheshko           | TBA                        |
 | 11 April      | Vincent Villalobos        | TBA                        |
 | 18 April      | Alex Taylor               | TBA                        |
 | 25 April      | Jonathan Higgins          | TBA                        |
-| 5 May         | Ryan Roach                |                            |
+| 5 May         | Ryan Roach                | TBA                        |
