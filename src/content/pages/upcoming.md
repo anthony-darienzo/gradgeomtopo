@@ -17,7 +17,7 @@ Abstracts of past talks can be found [here](/talks).
 | 14 March      | Brevan Ellefsen           | [Link](/talks/03142025)    |
 | 21 March      | Spring break              |                            |
 | 28 March      | Shana Li                  | [Link](/talks/03282025)    |
-| 4 April       | Nikolay Sheshko           | TBA                        |
+| 4 April       | Nikolay Sheshko           | [Link](/talks/04042025)    |
 | 11 April      | Vincent Villalobos        | TBA                        |
 | 18 April      | Alex Taylor               | TBA                        |
 | 25 April      | Jonathan Higgins          | TBA                        |
