@@ -11,9 +11,9 @@
         "build:deploy": "astro build && tar czvf dist.tar.gz dist && scp dist.tar.gz gradgeomtopo@gradgeomtopo:~/dist.tar.gz && ssh gradgeomtopo@gradgeomtopo .local/bin/astro_deploy.sh"
     },
     "dependencies": {
-        "@astrojs/check": "^0.9.8",
+        "@astrojs/check": "^0.9.2",
         "@astrojs/mdx": "^5.0.2",
-        "@astrojs/rss": "^4.0.17",
+        "@astrojs/rss": "^4.0.16",
         "@astrojs/sitemap": "^3.7.1",
         "@tailwindcss/vite": "^4.2.2",
         "astro": "^6.0.8",
@@ -22,8 +22,8 @@
         "typescript": "^5.9.3"
     },
     "devDependencies": {
-        "@tailwindcss/typography": "^0.5.13",
+        "@tailwindcss/typography": "^0.5.19",
         "prettier": "^3.3.2",
-        "prettier-plugin-tailwindcss": "^0.6.5"
+        "prettier-plugin-tailwindcss": "^0.7.2"
     }
 }
