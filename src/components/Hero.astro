@@ -4,19 +4,30 @@ import Button from './Button.astro';
 import siteConfig from '../data/site-config';
 
 const hero = siteConfig.hero;
+const semester = siteConfig.semester;
+const meetingTime = siteConfig.meetingTime;
+const meetingLocation = siteConfig.meetingLocation;
+
+// The backticks and dollar signs are Astro's way of doing string interpolation,
+// which allows us to create a single string that includes the values of the
+// semester, meeting time, and meeting location variables. This string can then
+// be used in the component to display the seminar's meeting information in a
+// concise format.
+const derivedHeroTitle = semester;
+const derivedHeroText = `We meet on ${meetingTime} in ${meetingLocation}.`;
 ---
 
 {
-    (hero?.title || hero?.image?.src || hero?.text || (hero?.actions && hero.actions.length > 0)) && (
+    (hero?.image?.src || (hero?.actions && hero.actions.length > 0)) && (
         <section class="w-full flex flex-col gap-8 mb-16 sm:mb-24">
-            {hero.title && <h3 class="leading-tight font-serif font-medium sm:text-4xl sm:leading-tight">{hero.title}</h3>}
+            {derivedHeroTitle && <h3 class="leading-tight font-serif font-medium sm:text-4xl sm:leading-tight">{derivedHeroTitle}</h3>}
             {hero.image?.src && (
                 <figure>
                     <img class="w-full" src={hero.image.src} loading="lazy" decoding="async" alt={hero.image.alt || ''} />
                     {hero.image.caption && <figcaption class="mt-1.5 text-xs sm:text-sm">{hero.image.caption}</figcaption>}
                 </figure>
             )}
-            {hero.text && <div class="max-w-none prose prose-dante sm:prose-lg" set:html={marked.parse(hero.text)} />}
+            {derivedHeroText && <div class="max-w-none prose prose-dante sm:prose-lg" set:html={marked.parse(derivedHeroText)} />}
             {hero.actions && hero.actions.length > 0 && (
                 <div class="flex flex-wrap gap-4">
                     {hero.actions.map((action) => (

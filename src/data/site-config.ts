@@ -27,6 +27,9 @@ export type SiteConfig = {
     title: string;
     subtitle?: string;
     description: string;
+    semester: string;
+    meetingTime: string;
+    meetingLocation: string;
     image?: Image;
     headerNavLinks?: Link[];
     footerNavLinks?: Link[];
@@ -41,6 +44,9 @@ const siteConfig: SiteConfig = {
     title: 'Graduate Geometry-Topology Seminar',
     subtitle: 'at the University of Illinois',
     description: 'gradgeomtopo@lists.illinois.edu',
+    semester: 'Spring 2026',
+    meetingTime: 'Wednesdays, 2:00 to 2:50 PM',
+    meetingLocation: 'Gregory Hall 219',
     image: {
         src: '/Group.jpg',
         alt: 'Group photo of seminar attendees.'
@@ -86,7 +92,7 @@ const siteConfig: SiteConfig = {
         },
         actions: [
             {
-                text: 'Schedule Spring 2026',
+                text: 'Schedule',
                 href: '/upcoming'
             },
             {

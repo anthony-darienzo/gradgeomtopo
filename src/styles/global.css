@@ -1,6 +1,12 @@
+@import "tailwindcss";
+/* After boosting to Astro V6, the below instructions from Tailwind CSS
+ * documentation no longer work, so I have to use the above imports instead of
+ * the @tailwind directives. */
+/*
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*/
 
 @layer base {
     :root {
