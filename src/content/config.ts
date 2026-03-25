@@ -26,6 +26,7 @@ const blog = defineCollection({
 });
 
 const talks = defineCollection({
+    type: 'content',
     schema: z.object({
         title: z.string(),
         excerpt: z.string().optional(),

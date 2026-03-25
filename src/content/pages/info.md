@@ -4,8 +4,8 @@ seo:
   title: Seminar Information
   description: Learn more about the UIUC Graduate Geometry-Topology seminar.
 ---
-For Spring 2025, we are meeting on *Fridays* from 1:00PM to 1:50PM. In
-**Altgeld Hall 241.**
+For Spring 2026, we are meeting on *Wednesdays* from 2:00PM to 2:50PM. In
+**Gregory Hall 219.**
 
 We are a graduate-student run seminar showcasing special topics in
 geometry and topology at large. Talks in this seminar often involve
@@ -23,7 +23,7 @@ We have a mailing list,
 
 Abstracts of past talks can be found [here](/talks).
 
-A schedule of Spring 2025 talks can be found [here](/upcoming).
+A schedule of Spring 2026 talks can be found [here](/upcoming).
 
 Questions? Feel free to ask the organizer, Anthony D'Arienzo ([apd6 AT
 illinois DOT edu](https://adarienzo.web.illinois.edu)).

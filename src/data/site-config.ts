@@ -78,15 +78,15 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Spring 2025',
-        text: "We meet on Friday, 1:00 to 1:50 PM, in Altgeld Hall 241.",
+        title: 'Spring 2026',
+        text: "We meet on Wednesday, 2:00 to 2:50 PM, in Gregory Hall 219.",
         image: {
             src: '/Group.jpg',
             alt: 'Group photo of seminar attendees.'
         },
         actions: [
             {
-                text: 'Schedule Spring 2025',
+                text: 'Schedule Spring 2026',
                 href: '/upcoming'
             },
             {

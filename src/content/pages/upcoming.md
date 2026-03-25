@@ -2,23 +2,24 @@
 title: Upcoming Talks
 seo:
   title: Upcoming Talks
-  description: Talks schedule for Spring 2025
+  description: Talks schedule for Fall 2026
 ---
 
-## Talks for the Spring 2025 Semester
+## Talks for the Fall 2026 Semester
 
 Abstracts of past talks can be found [here](/talks).
 
 | Date          | Speaker                   | Abstract                   |
 |---------------|---------------------------|----------------------------|
-| 21 February   | Anthony D'Arienzo         | [Link](/talks/02212025)    |
-| 28 February   | Wilmer Smilde             | [Link](/talks/02282025)    |
-| 7 March       | Break                     |                            |
-| 14 March      | Brevan Ellefsen           | [Link](/talks/03142025)    |
-| 21 March      | Spring break              |                            |
-| 28 March      | Shana Li                  | [Link](/talks/03282025)    |
-| 4 April       | Nikolay Sheshko           | [Link](/talks/04042025)    |
-| 11 April      | Vincent Villalobos        | TBA                        |
-| 18 April      | Alex Taylor               | TBA                        |
-| 25 April      | Jonathan Higgins          | TBA                        |
-| 5 May         | Ryan Roach                | TBA                        |
+| 18 February   | Anthony D'Arienzo         | [Link](/talks/2026/02182026)    |
+| 25 February   | Cai Zeng                  | [Link](/talks/2026/02252026)    |
+| 4 March       | Break                     |                            |
+| 11 March      | Shana Li                  | [Link](/talks/2026/03112026)    |
+| 18 March      | Spring break              |                            |
+| 25 March      | Ryan Roach                | [Link](/talks/2026/03252026)    |
+| 1 April       | Nikolay Sheshko           | TBA                        |
+| 8 April       | Huy Tran                  | TBA                        |
+| 15 April      | Zhengbo Q                 | TBA                        |
+| 22 April      | Jonathan Higgins          | TBA                        |
+| 29 April      | Wilmer Smilde             | TBA                        |
+| 6 May         | Brevan Ellefsen           | TBA                        |
