@@ -4,10 +4,11 @@ seo:
   title: Seminar Information
   description: Learn more about the UIUC Graduate Geometry-Topology seminar.
 ---
+import siteConfig from '../../data/site-config';
 
-For `{{ getSiteConfig('semester') }}`, we are meeting on
-*`{{getSiteConfig('meetingTime') }}`*, 
-in **`{{ getSiteConfig('meetingLocation') }}`**.
+For {siteConfig.semester}, we are meeting on
+*{siteConfig.meetingTime}*,
+in **{siteConfig.meetingLocation}**.
 
 We are a graduate-student run seminar showcasing special topics in
 geometry and topology at large. Talks in this seminar often involve
@@ -25,7 +26,7 @@ We have a mailing list,
 
 Abstracts of past talks can be found [here](/talks).
 
-A schedule of `{{ getSiteConfig('semester') }}` talks can be found [here](/upcoming).
+A schedule of {siteConfig.semester} talks can be found [here](/upcoming).
 
 Questions? Feel free to ask the organizer, Anthony D'Arienzo ([apd6 AT
 illinois DOT edu](https://adarienzo.web.illinois.edu)).
