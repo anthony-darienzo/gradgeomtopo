@@ -3,20 +3,25 @@ import { type CollectionEntry } from 'astro:content';
 import ArrowRight from '../icons/ArrowRight.astro';
 import FormattedDate from './FormattedDate.astro';
 
-type Props = { post: CollectionEntry<'blog' | 'talks'>; class?: string; headingLevel?: 'h2' | 'h3' };
+import katex from 'katex';
+
+type Props = { post: CollectionEntry<'talks'>; class?: string; headingLevel?: 'h2' | 'h3' };
 
 const { post, class: className, headingLevel = 'h2' } = Astro.props;
 const { title, publishDate, updatedDate, excerpt, author } = post.data;
 const TitleTag = headingLevel;
+
+const renderedTitle = title.replace(/\$([^$]+)\$/g, (_, tex) =>
+  katex.renderToString(tex, { throwOnError: false })
+);
 ---
 
 <a class:list={['flex justify-between items-start gap-8 group', className]} href={`/${post.collection}/${post.id}/`}>
     <div class="grow">
         <TitleTag
             class="text-xl leading-tight font-serif font-medium group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1 sm:text-2xl"
-        >
-            {title}
-        </TitleTag>
+            set:html={renderedTitle}
+        />
         {author && <h2>{author}</h2>}
         <div class="mt-1 text-sm leading-normal">
             <FormattedDate date={publishDate} />

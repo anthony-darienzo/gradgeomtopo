@@ -8,6 +8,8 @@ import Subscribe from '../../components/Subscribe.astro';
 import { sortItemsByDateDesc } from '../../utils/data-utils';
 import { slugify } from '../../utils/common-utils';
 
+import katex from 'katex';
+
 export async function getStaticPaths() {
     const posts = (await getCollection('talks')).sort(sortItemsByDateDesc);
     const postCount = posts.length;
@@ -27,12 +29,16 @@ const { href } = Astro.url;
 const { post, prevPost, nextPost } = Astro.props;
 const { title, publishDate, updatedDate, excerpt, author, tags = [], seo } = post.data;
 const { Content } = await render(post);
+
+const renderedTitle = title.replace(/\$([^$]+)\$/g, (_, tex) =>
+  katex.renderToString(tex, { throwOnError: false })
+);
 ---
 
 <BaseLayout title={seo?.title ?? title} description={seo?.description ?? excerpt} image={seo?.image} pageType="article" showHeader={false}>
     <article class="mb-16 sm:mb-24">
         <header class="mb-8">
-            <h1 class="text-3xl leading-tight font-serif font-medium sm:text-5xl sm:leading-tight">{title}</h1>
+            <h1 class="text-3xl leading-tight font-serif font-medium sm:text-5xl sm:leading-tight" set:html={renderedTitle} />
             <h2>{author}</h2>
             <div class="mt-4 text-sm">
                 <FormattedDate date={publishDate} />

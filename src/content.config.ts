@@ -13,20 +13,6 @@ const seoSchema = z.object({
     pageType: z.enum(['website', 'article']).default('website')
 });
 
-const blog = defineCollection({
-    loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/blog" }),
-    schema: z.object({
-        title: z.string(),
-        excerpt: z.string().optional(),
-        author: z.string().optional(),
-        publishDate: z.coerce.date(),
-        updatedDate: z.coerce.date().optional(),
-        isFeatured: z.boolean().default(false),
-        tags: z.array(z.string()).default([]),
-        seo: seoSchema.optional()
-    })
-});
-
 const talks = defineCollection({
     loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/talks" }),
     schema: z.object({
@@ -49,4 +35,4 @@ const pages = defineCollection({
     })
 });
 
-export const collections = { blog, pages, talks };
+export const collections = { pages, talks };

@@ -84,8 +84,8 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Spring 2026',
-        text: "We meet on Wednesday, 2:00 to 2:50 PM, in Gregory Hall 219.",
+        title: 'Graduate Geometry and Topology Seminar',
+        text: "at The University of Illinois",
         image: {
             src: '/Group.jpg',
             alt: 'Group photo of seminar attendees.'
