@@ -79,6 +79,10 @@ const siteConfig: SiteConfig = {
             href: '/info'
         },
         {
+            text: 'Website source',
+            href: 'https://github.com/anthony-darienzo/gradgeomtopo'
+        },
+        {
             text: 'Download theme',
             href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
